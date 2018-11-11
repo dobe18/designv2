@@ -1,1 +1,3 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+Donjeta Berisha är student på Blekinge Tekniska Högskola och skapat denna sidan.
+
+Copyright 2018

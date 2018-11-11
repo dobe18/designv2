@@ -1,3 +1,6 @@
+
+
+
 ---
 title: "Min fina titel"
 ---
@@ -10,16 +13,12 @@ Detta innehåll är skrivet i markdown och du hittar innehållet i filen `conten
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Hej, Jag är uppvuxen i Skåne men nu bosatt lite högre upp i Sverige.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Programmering är ett nyfunnet intresse. Jag blev inspirerad av en programmerare till kollega som startat eget företag och utvecklat ett program och jag blev blev helt hänförd av det han åstadkommit. Jag insåg snabbt att det finns utrymme för kreativitet, problemlösning och att det är ett yrke man aldrig blir fullärd. Då jag tycker att det är viktigt med att kunna vara kreativ i sitt jobb blev jag genast övertygad om att programmering passar mig. Måste dock erkänna att jag känner mig lite nervös inför kurserna, men hoppas att jag kommer att ro detta i hamn.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Om jag skall nämna någon hobby, förutom webb-programmering, så får det bli klättring och handla på börsen. För tillfället ligger jag lågt med hobbies pga tidsbrist, men något kanske dyker upp...?
 
 Vi syns och hörs i forum och chatt!
 
-/Mikael
+/Donjeta
