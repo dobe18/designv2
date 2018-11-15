@@ -5,6 +5,12 @@
  * to style up the website so it is useable.
  */
 
+
+ /**
+  * Style the navbar
+  */
+
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
@@ -13,4 +19,119 @@
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+}
+
+html {
+    background-color: #191818d1;
+    overflow-y: scroll;
+}
+
+body {
+    margin: auto;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+
+.inner-wrap-header {
+    height: 0px;
+}
+.wrap-all {
+    margin: 0 auto;
+    background-color: white;
+    width: 800px;
+    height: 841px;
+}
+
+.region-footer {
+    background-color: grey;
+    float: left;
+}
+
+.site-logo {
+    display: none;
+}
+
+.footer-column {
+    border-bottom: 10px;
+    width: 33%;
+    float: left;
+    border: 1px solid;
+    margin-bottom: 22px;
+}
+
+
+.byline-box {
+    float: left;
+    display: inline-block;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 43px;
+    margin-left: 68px;
+    width: 35%;
+}
+
+.byline-text {
+    text-align: center;
+}
+
+.mini-me {
+    float: left;
+}
+
+figure.figure img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: right;
+}
+
+li {
+    float: left;
+    padding: 3px;
+    display: inline-block;
+    margin-right: 45px;
+    font-size: x-large;
+}
+
+
+h1 {
+    margin-top: -30px;
+}
+
+p {
+    text-align: center;
+}
+
+.next {
+    margin-bottom: 50px;
+}
+
+
+.block.toc {
+    font-size: 23px;
+}
+
+.wrap-sidebar.region-sidebar-left.has-sidebar-left.has-sidebar {
+    float: left;
+}
+
+.region-main.has-sidebar-right.has-sidebar {
+    float: left;
+}
+
+.figure.right {
+    float: right;
+}
+
+.article {
+    margin-top: 52px;
+    background-color: white;
+    margin-bottom: -14px;
+}
+
+.next-previous {
+    margin-bottom: 0px;
+    background-color: white;
 }
