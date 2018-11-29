@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom02.
+ * Stylesheet for design kmom03.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -7,33 +7,398 @@
  * Internal self contained modules, save in directory module/.
  */
 /**
+ * Import the typographic grid.
+ */
+/**
+ * Typographic font families to choose from.
+ */
+/**
+ * Typographic defaults.
+ */
+#desinax-hgrid {
+  /**
+     * Mixins used when setting default fonts
+     */
+  /**
+     * Settings for headings H1-H6
+     */
+  /**
+     * Text elements
+     */
+  /**
+     * Display source code.
+     */
+  /**
+     * Lists
+     */
+  /**
+     * Tables. Because of the need for padding on TH and TD, the vertical rhythm
+     * on table cells has to be 1.5*@magic-number.
+     */
+  /**
+     * More typography elements
+     */
+  /**
+     * Enable all default typographic elements.
+     */
+}
+.hgrid .inner-wrap {
+  background-image: url("../img/magic-number-22px.png");
+}
+/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
  * Base style to affect HTML elements on a general scale.
  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+  margin: 0;
+}
+h1 {
+  font-size: 2.375em;
+  line-height: 1.15789474;
+  font-weight: normal;
+  border-bottom: 1px solid #666;
+  margin-bottom: 21px;
+}
+h1 ~ h1,
+h1 ~ h2,
+h1 ~ h3,
+h1 ~ h4,
+h1 ~ h5,
+h1 ~ h6 {
+  margin-top: 44px;
+}
+h1 + h2 {
+  margin-top: 22px;
+}
+h2 {
+  font-size: 1.875em;
+  line-height: 1.46666667;
+  font-weight: normal;
+  margin-bottom: 21px;
+  border-bottom: 1px solid #CCC;
+}
+h2 + h3 {
+  margin-top: 22px;
+}
+h3 {
+  font-size: 1.75em;
+  line-height: 1.57142857;
+  font-weight: normal;
+  margin-bottom: 21px;
+  border-bottom: 1px solid #EEE;
+}
+h3 + h4 {
+  margin-top: 22px;
+}
+h4 {
+  font-size: 1.5em;
+  line-height: 1.83333333;
+  font-weight: normal;
+  margin-bottom: 21px;
+  border-bottom: 1px solid #EEE;
+}
+h4 + h5 {
+  margin-top: 22px;
+}
+h5 {
+  font-size: 1.25em;
+  line-height: 1.1;
+  margin-bottom: 21px;
+  border-bottom: 1px solid #EEE;
+}
+h5 + h6 {
+  margin-top: 22px;
+}
+h6 {
+  font-size: 1.25em;
+  line-height: 1.1;
+  margin-bottom: 21px;
+  border-bottom: 1px solid #EEE;
+}
+p {
+  margin-bottom: 22px;
+}
+small,
+.small,
+.smaller {
+  font-size: 0.875em;
+}
+strong,
+b {
+  font-weight: bold;
+}
+mark {
+  color: #000;
+  background-color: #ff9;
+}
+abbr[title],
+dfn[title] {
+  text-decoration: dotted underline;
+}
+em,
+i,
+dfn {
+  font-style: italic;
+}
+sub,
+sup {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+blockquote {
+  border-left: 4px solid #eee;
+  padding-left: 1em;
+  margin-left: 0;
+  margin-bottom: 22px;
+}
+pre,
+code,
+kbd,
+samp,
+.code {
+  font-family: "Courier New", Courier, monospace;
+}
+code,
+samp {
+  border: 1px solid #ccc;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+code {
+  background-color: #eee;
+}
+pre,
+div.code,
+pre code {
+  font-size: 1em;
+  line-height: 1.5;
+  white-space: pre;
+}
+pre {
+  margin-bottom: 22px;
+}
+pre code {
+  display: block;
+  overflow: auto;
+}
+div.code,
+pre code {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 0.5em;
+  background-color: #eee;
+}
+ul,
+ol {
+  margin-bottom: 22px;
+  padding-left: 1.5em;
+}
+ul p,
+ol p {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin: 0;
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: decimal;
+}
+dl {
+  margin-bottom: 22px;
+}
+dl.horizontal dt {
+  clear: left;
+  float: left;
+  width: 7em;
+}
+dl.horizontal dd {
+  margin-left: 8em;
+  display: block;
+}
+dd {
+  margin-left: 1.5em;
+}
+article table,
+.table,
+.table1,
+.table2 {
+  margin-bottom: 22px;
+}
+table.full-width,
+article .table,
+.table,
+.table2 {
+  width: 100%;
+}
+article table,
+.table,
+.table2 {
+  border-collapse: collapse;
+  /*
+            tfoot {
+            }
+            */
+}
+article table caption,
+.table caption,
+.table2 caption {
+  font-size: 0.875em;
+  line-height: 1.57142857;
+  text-align: left;
+  font-style: italic;
+}
+article table thead,
+.table thead,
+.table2 thead {
+  box-shadow: 0 1px 0 #aaa;
+}
+article table th,
+.table th,
+.table2 th {
+  vertical-align: bottom;
+  font-weight: bold;
+  text-align: left;
+}
+article table th,
+.table th,
+.table2 th,
+article table td,
+.table td,
+.table2 td {
+  padding: 5.5px;
+}
+article table tr,
+.table tr,
+.table2 tr {
+  box-shadow: 0 1px 0 #ccc;
+}
+article table tr:hover,
+.table tr:hover,
+.table2 tr:hover {
+  color: #000;
+  background-color: #f6f6f6;
+  box-shadow: 0 1px 0 #666;
+}
+table.striped tbody tr:nth-child(even) td,
+table.striped tbody tr.even td {
+  background-color: #fafafa;
+}
+hr {
+  position: relative;
+  top: -2px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-top: 32px;
+  margin-bottom: 33px;
+}
+hr::after {
+  content: "§";
+  position: relative;
+  top: -0.7em;
+  left: 50%;
+  padding: 0 0.25em;
+  background-color: #fff;
+}
 html {
+  font-size: 100%;
+  line-height: 1.4;
   overflow-y: scroll;
   background-color: grey;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.75rem;
+  /* 1.4 * 1.25em vår baseline */
+}
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+.onepixel {
+  letter-spacing: 1px;
 }
 body {
   margin: 0;
   padding: 0;
   color: black;
   background-color: #fff;
-  font: 100.01%/1 serif;
   text-align: center;
+  font: 16px/1.375 MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 img {
   max-width: 100%;
 }
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
+ * Import the vertical grid.
  */
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
+ * Fluid and Responsive Vertical Grid
+ */
+/**
+ * Namespace what could be namespaced
+ */
+#desinax-vgrid {
+  /**
+     * Wrap grid in a container.
+     */
+  /**
+     * Show grid.
+     */
+  /**
+     * All columns must be wrapped in a row.
+     */
+  /**
+     * Create a column spanning @col columns.
+     */
+  /**
+     * Push a column @offset columns.
+     */
+  /**
+     * Pull a column left @offset columns.
+     */
+  /**
+     * Pull a column right @offset columns.
+     */
+}
+/**
+ * Layout using vgrid
  */
 /**
  * Variables
@@ -41,187 +406,340 @@ img {
 /**
  * General layout
  */
-.outer-wrap-header::after {
+.row {
+  display: block;
+  width: 101.04166667%;
+  margin-left: -0.52083333%;
+  margin-right: -0.52083333%;
+  margin-bottom: 14px;
+}
+.row::after {
   content: "";
   display: block;
   clear: both;
 }
-.inner-wrap-header {
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+.inner-wrap.header {
+  margin-right: auto;
+  margin-left: auto;
   max-width: 100%;
 }
-.region-header-col-1,
-.region-header-col-3 {
-  width: 20%;
-  float: left;
+.vgrid .inner-wrap {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
 }
-.region-header-col-2 {
-  width: 60%;
-  float: left;
-  text-align: center;
+@media (min-width: 1100px) {
+  .vgrid .inner-wrap {
+    background-size: 1100px auto;
+  }
 }
-.region-footer {
-  margin: 0 auto;
-  background-color: grey;
-  overflow: auto;
-  width: 800px;
+.vgrid .inner-wrap.inner-wrap-header {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
 }
-.rm-mobile a {
-  color: inherit;
-  font-size: larger;
-  margin: 10px;
-  text-align: initial;
-}
-.rm-max.rm-swipe-right.rm-mobile {
-  padding: 0;
-  padding-right: 0px;
-  background-color: grey;
-}
-ul#rm-menu.rm-default.rm-mobile.rm-clicked {
-  width: 250px;
-  height: 314px;
-}
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
-.inner-wrap-main {
-  overflow: auto;
-  width: 800px;
-  margin: 0 auto;
+@media (min-width: 100%) {
+  .vgrid .inner-wrap.inner-wrap-header {
+    background-size: 100% auto;
+  }
 }
 .region-main {
-  width: 80%;
-  overflow: auto;
+  display: inline;
   float: left;
+  width: 73.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 8.85416667%;
 }
-.region-main.has-sidebar.has-sidebar-right {
-  width: 50%;
+.region-main.has-sidebar {
+  margin-left: 0.52083333%;
 }
-.region-sidebar-left.has-sidebar-right,
-.region.sidebar-right.has-sidebar-left {
-  width: 25%;
-  margin-left: 0;
+.region-main.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 69.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 57.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 .region-sidebar-left,
 .region.sidebar-right {
-  width: 20%;
+  display: inline;
   float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region.sidebar-right {
+  margin-left: 4.6875%;
+}
+.region-sidebar-left.has-sidebar-right,
+.region.sidebar-right.has-sidebar-left {
+  display: inline;
+  float: left;
+  width: 19.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.article {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+/**
+* Responsive 1, 2, 3
+*/
+@media screen and (max-width: 1000px) {
+  .region-main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main.has-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-left.has-sidebar-right,
+  .region.sidebar-right.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .region-main.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region.sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-right: 0.52083333%;
+    margin-left: 0.52083333%;
+  }
 }
 .site-logo {
   display: none;
 }
 .footer-column {
-  border-bottom: 10px;
-  width: 33%;
+  display: inline;
   float: left;
-  border: 1px solid;
-  margin-bottom: 22px;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.site-footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 .byline-box {
+  display: inline;
   float: left;
-  display: inline-block;
-  border: 1px solid;
-  margin-top: 10px;
-  margin-bottom: 43px;
-  margin-left: 68px;
-  width: 35%;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 .byline-text {
-  text-align: center;
-}
-.mini-me {
+  display: inline;
   float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
-figure.figure img {
-  width: 290px;
-  height: 350px;
+.inner-wrap-footer,
+.outer-wrap-footer {
+  background-color: grey;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  display: inline;
+  float: left;
+  width: 19.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-header-col-2 {
+  display: inline;
+  float: left;
+  width: 57.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.breadcrumb-list {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-flash {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+.flash {
+  display: inline;
+  float: left;
+  width: 82.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 8.85416667%;
+}
+@media screen and (max-width: 700px) {
+  .flash {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .sidebar-left,
+  .sidebar-right {
+    display: inline;
+    float: left;
+    width: 48.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .main {
+    display: inline;
+    float: left;
+    width: 48.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sidebar-left,
+  .sidebar-right,
+  .main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+.figure {
+  display: table;
+  padding: 0;
+  margin: 0;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+.figure img {
+  max-width: 100%;
   display: block;
-  float: right;
 }
-p {
-  text-align: center;
+.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
 }
-h1 {
-  margin: 0.3px;
+.figure figcaption p {
+  margin-top: 0;
+  font-style: italic;
 }
-.block.toc {
-  font-size: 23px;
+.figure td img {
+  max-width: none;
+}
+.figure.left {
+  float: left;
+  margin-right: 8px;
 }
 .figure.right {
   float: right;
+  margin-left: 8px;
 }
-.next-previous {
-  margin-bottom: 0px;
-  background-color: white;
+.figure.center {
+  clear: both;
+  margin: auto;
 }
-/**
- * Layout for responsive style through media queries.
- */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
+.figure.center figcaption {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .figure.w50 {
+    width: 300px;
+  }
+  .figure.w25 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .figure.w50 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .figure.w50 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .figure.w50 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .figure.w50 {
+    min-width: 100%;
+  }
+  .figure.left,
+  .figure.right {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 /**
- * Navbar
+ * Import figure.
  */
-@media screen and (max-width: 960px) {
-  .rm-desktop a {
-    padding-left: 0,5em;
-    padding-right: 0,5em;
-  }
-}
-@media screen and (max-width: 805px) {
-  .region-header-col-1,
-  .region-header-col-3 {
-    width: 15%;
-  }
-  .region-header-col-2 {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 700px) {
-  .rm-desktop {
-    display: none;
-  }
-}
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
 /**
- * Show off the regions used in the website, to ease styling.
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
  */
-.regions .outer-wrap {
-  background-color: #f4e3c9;
-  border: 1px solid #e3b774;
-}
-.regions .inner-wrap {
-  background-color: #f4e0e9;
-  border: 1px solid #d995b4;
-}
-.regions .region-header-col-1,
-.regions .region-header-col-2,
-.regions .region-header-col-3,
-.regions .region-flash,
-.regions .region-breadcrumb,
-.regions .region-flash-message,
-.regions .region-columns-above,
-.regions .region-main,
-.regions .region-after-main,
-.regions .region-columns-below,
-.regions .region-sidebar-left,
-.regions .region-sidebar-right,
-.regions .region-footer,
-.regions .region-footer-column-1,
-.regions .region-footer-column-2,
-.regions .region-footer-column-3 {
-  background-color: #b5dce1;
-  border: 1px solid #6cbac4;
-  color: #111;
-}
 /**
  * My own settings, not currently in their own module.
  */
@@ -4763,6 +5281,25 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max.rm-swipe-right .rm-mobile {
   right: 0;
+}
+/**
+ * Style for responsive menu
+ */
+/**
+  * Example on media queries
+  */
+@media screen and (max-width: 680px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 680px) {
+  .rm-small {
+    display: none;
+  }
 }
 /**
 * import mixin.
