@@ -665,6 +665,7 @@ img {
   margin: 0;
   /* Chrome shinks images in td */
   /* Position the images */
+  float: right;
 }
 .figure img {
   max-width: 100%;
@@ -729,6 +730,12 @@ img {
     margin-left: 0;
     margin-right: 0;
   }
+}
+.rm-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: max-content;
 }
 /**
  * Import figure.

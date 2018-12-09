@@ -1,0 +1,51 @@
+@import "kmom04.less";
+@import "layout/layout_colortheme.less";
+@import "base/base_themecolor.less";
+
+
+@backgroundColor: #2982ff;
+@textColorHeadings: #ffffff;
+@textColor: lightskyblue;
+@textColorHeader: #2168cc;
+@textColorFooter: lightskyblue;
+@backgroundColorHeader: #75aeff;
+@backgroundColorFooter: #2168cc;
+@backgroundColorHtml: #405a7f;
+@fontFamilyHeadings: Garamond;
+@fontFamilyBody: Helvetica;
+@textColorLink: #ffffff;
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+html {
+    background-color: @backgroundColorHtml;
+}
+
+h1 {
+    margin-top: 88px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: @textColorHeadings;
+    font-family: @fontFamilyHeadings;
+}
+
+h4 {
+    font-size: 25px;
+    color: @textColorHeadings;
+    font-family: @fontFamilyVerdana
+}
+
+.rm-desktop li a {
+    color: inherit;
+    background-color: white;
+}
+
+
+.rm-max .rm-mobile {
+    background-color: @backgroundColorHeader;
+    color: @textColorLink;
+}

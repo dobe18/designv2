@@ -1,3 +1,4 @@
-#### Footer col 3
+#### Färghjul
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Färghjul är ett bra redskap att använda för att förstå färger och färgsammansättning.
+På [Adobe Color CC](https://color.adobe.com/) kan du skapa egna färgscheman.

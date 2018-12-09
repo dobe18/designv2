@@ -1,0 +1,49 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+// Activate grid and affect all typographic elements
+//#desinax-hgrid.activateDefaultTypography();
+
+html {
+    font-size: 100%;
+    line-height: 1.4;
+    overflow-y: scroll;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1.75rem; /* 1.4 * 1.25em vår baseline */
+}
+
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+.onepixel {
+  letter-spacing: 1px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    //font: 100.01%/1 @fontFamilyBody;
+    text-align: center;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+img {
+    max-width: 100%;
+}
+
+.figure.right {
+    float: right;
+    width: 300px;
+}
+
+.region-main {
+    overflow: auto;
+}

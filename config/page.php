@@ -19,8 +19,8 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom03.css",
-                //"css/kmom03.css",
+                "css/04_dark.css",
+                //"css/04_dark.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",

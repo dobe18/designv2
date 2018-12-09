@@ -1,0 +1,34 @@
+@import "kmom04.less";
+@import "layout/layout_colortheme.less";
+@import "base/base_themecolor.less";
+
+
+@backgroundColor: #f0f046;
+@textColor: #ff6764;
+@textColorHeader: #f0f046;
+@textColorFooter: #f0f046;
+@backgroundColorHeader: #88c9f8;
+@backgroundColorFooter: #ff6764;
+@backgroundColorHtml: #88c9f8;
+@fontFamilyHeadings: Verdana;
+@fontFamilyBody: Arial;
+@textColorLink: #29a6ff;
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+html {
+    background-color: @backgroundColorHtml;
+}
+
+.rm-max .rm-mobile {
+    background-color: @backgroundColorHeader;
+    color: @textColor
+}
+
+.rm-desktop li a {
+    color: inherit;
+    background-color: @textColor;
+}

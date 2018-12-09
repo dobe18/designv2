@@ -80,6 +80,12 @@ ul#rm-menu.rm-default.rm-mobile.rm-clicked {
   width: 250px;
   height: 314px;
 }
+.rm-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -159,6 +165,12 @@ h1 {
 .next-previous {
   margin-bottom: 0px;
   background-color: white;
+}
+.rm-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: max-content;
 }
 /**
  * Layout for responsive style through media queries.

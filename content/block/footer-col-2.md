@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Kursen design
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Kursen design går ut på att lära sig designa användarvänliga hemsidor. Mer information om kursen finner du på [dbwebb](https://dbwebb.se/kurser/design-v2).
