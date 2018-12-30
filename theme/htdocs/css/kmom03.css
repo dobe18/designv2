@@ -365,6 +365,18 @@ body {
 img {
   max-width: 100%;
 }
+article {
+  margin-top: -38px;
+}
+.figure {
+  display: table;
+  padding: 0;
+  margin: 0;
+  float: none;
+}
+.figure.figure {
+  display: inline-block;
+}
 /**
  * Import the vertical grid.
  */
@@ -663,6 +675,7 @@ img {
   display: table;
   padding: 0;
   margin: 0;
+  margin-bottom: 22px;
   /* Chrome shinks images in td */
   /* Position the images */
   float: right;
@@ -674,21 +687,15 @@ img {
 .figure figcaption {
   display: table-caption;
   caption-side: bottom;
+  padding-top: 11px;
 }
 .figure figcaption p {
   margin-top: 0;
+  margin-bottom: 0;
   font-style: italic;
 }
 .figure td img {
   max-width: none;
-}
-.figure.left {
-  float: left;
-  margin-right: 8px;
-}
-.figure.right {
-  float: right;
-  margin-left: 8px;
 }
 .figure.center {
   clear: both;
@@ -697,38 +704,72 @@ img {
 .figure.center figcaption {
   text-align: center;
 }
-@media screen and (max-width: 600px) {
-  .figure.w50 {
-    width: 300px;
+.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  .figure.left.w67,
+  .figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
   }
-  .figure.w25 {
-    width: 150px;
+  .figure.left.w67 img,
+  .figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  .figure.left.w50,
+  .figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .figure.left.w50 img,
+  .figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  .figure.left.w40,
+  .figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .figure.left.w40 img,
+  .figure.right.w40 img {
+    width: 687.5px;
   }
 }
 @media screen and (max-width: 550px) {
-  .figure.w50 {
-    width: 225px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .figure.w50 {
-    width: 200px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .figure.w50 {
-    width: 150px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .figure.w50 {
-    min-width: 100%;
-  }
-  .figure.left,
-  .figure.right {
-    float: none;
+  .figure.left.w33,
+  .figure.right.w33 {
     margin-left: 0;
     margin-right: 0;
+    float: none;
+  }
+  .figure.left.w33 img,
+  .figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  .figure.left.w25,
+  .figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .figure.left.w25 img,
+  .figure.right.w25 img {
+    width: 366.66666667px;
   }
 }
 .rm-navbar ul {
@@ -736,6 +777,12 @@ img {
   margin: 0;
   padding: 0;
   width: max-content;
+}
+.next {
+  float: right;
+}
+.previous {
+  float: left;
 }
 /**
  * Import figure.

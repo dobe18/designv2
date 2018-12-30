@@ -19,6 +19,11 @@ return [
             "title" => "Redovisningstexter från kursmomenten.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg.",
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",

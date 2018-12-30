@@ -30,13 +30,47 @@ return [
                         "url" => "redovisning/kmom02",
                         "title" => "Redovisning för kmom02.",
                     ],
+                    [
+                        "text" => "Kmom03",
+                        "url" => "redovisning/kmom03",
+                        "title" => "Redovisning för kmom03.",
+                    ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "redovisning/kmom05",
+                        "title" => "Redovisning för kmom05.",
+                    ],
                 ],
             ],
         ],
         [
             "text" => "Rapport",
             "url" => "rapport",
-            "title" => "Rapporter.",
+            "title" => "Rapporter från kursmomenten.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapport: Utvärdera webbplatsers färgval och känslan de signalerar",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport: Utvärdera webbplatsers färgval och känslan de signalerar",
+                    ],
+                    [
+                        "text" => "Rapport: Utvärdera webbplatsers laddningstid och användbarhet",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport: Utvärdera webbplatsers laddningstid och användbarhet",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg.",
         ],
         [
             "text" => "Om",

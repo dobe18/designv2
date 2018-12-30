@@ -27,3 +27,6 @@ RewriteRule ^image/(.*)$ cimage/img.php?src=$1 [QSA,NC,L]
 
 RewriteCond %{HTTP_HOST} !^www\.student\.bth\.se$ [NC]
 RewriteRule (.*) index.php/$1 [NC,L]
+
+
+RewriteRule ^image/(.*)$   img.php?src=$1 [QSA,NC,L]

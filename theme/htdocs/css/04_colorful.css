@@ -4941,7 +4941,6 @@ figcaption {
   display: table;
   padding: 0;
   margin: 0;
-  float: right;
 }
 .figure.figure {
   display: inline-block;

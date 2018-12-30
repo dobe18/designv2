@@ -1,0 +1,113 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: grey;
+@bgColorBody: #fff;
+@colorBody: black;
+//@fontFamilyBody: serif;
+
+@maxContentWidth: 960px;
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+html {
+    font-size: 100%;
+    line-height: 1.4;
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1.75rem; /* 1.4 * 1.25em vår baseline */
+}
+
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+.onepixel {
+  letter-spacing: 1px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    //font: 100.01%/1 @fontFamilyBody;
+    text-align: center;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+img {
+    max-width: 100%;
+}
+
+article {
+    margin-top: -38px;
+}
+
+.figure {
+    display: table;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
+
+time {
+    float: right;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.figure.figure {
+    display: inline-block;
+}
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+&.left,
+&.right {
+    @media screen {
+        @media (max-width: round(@maxContentWidth * 2 / 3)) {
+            &.w50 {
+                margin-left: 0;
+                margin-right: 0;
+                float: none;
+                img {
+                    width: @maxContentWidth * 2 / 3;
+                }
+            }
+        }
+    }
+}

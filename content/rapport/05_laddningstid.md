@@ -1,63 +1,68 @@
 ---
 ---
-Rapport: Utvärdera webbplatsers färgval och känslan de signalerar
+Rapport: Utvärdera webbplatsers laddningstid och användbarhet
 =========================
 
-Uppgiften handlar om att välja ut tre webbplatser och analysera val av färg och typografi på dess webbplatser.
+Uppgiften handlar om att välja ut tre webbplatser och testa dem för att mäta hur snabbt de laddas och om de innehåller några saker som kan förbättras med tanke på laddningstid och användbarhet.
 
 Urval
 =========================
-Jag har valt att undersöka folksam.se, filmstaden.se och hm.se. Jag valde dessa webbplatser för att jag ofta besöker de och tyckte det skulle vara kul att analysera dessa. Webbplatser är också ganska välkända- och besökta. Jag bestämde mig också för att inte välja webbplatser inom samma kategori.  
-Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
+Jag har valt att undersöka Nelly.se, Aftonbladet.se och Youtube.se. Dessa hemsidor är också ganska välkända- och besökta. Jag valde dessa webbplatser för att jag ofta besöker de och vet om att de innehåller många bilder och videon. Jag bestämde mig också för att inte välja webbplatser inom samma kategori.  
+
 
 Metod
 =========================
-Min metod för att utföra undersökningen var att använda mig av verktyget Color Picker Add on och via den gjorde jag en färganalys av de tre olika webbplatserna för att få ut färgpaletten för respektive webbplats. Jag använde mig också av verktyg för utvecklare (chrome) för att se källkoden och vilken typ av typsnitt som webbplatserna använder sig av. Jag använde mig också av den kurslitteraturen, de artiklar som föreslogs för detta kmom samt läsanvisningarna i guiden på dbwebb.
+Min metod för att utföra undersökningen var att använda mig av Google Pagespeed och via den gjorde jag mätningar av respektive webbplats. Jag använde mig också av verktyg för utvecklare (devtools flik networks) för att se respektive sidas laddningstid, antalet resurser som laddas samt totala storlek. Jag använde mig också av den kurslitteraturen, de artiklar som föreslogs för detta kmom samt läsanvisningarna i guiden på dbwebb.
 
 Resultat
 =========================
-[FIGURE src=image/Folksam.png?w=200 caption="Folksam."]
 
-[FIGURE src=image/folksam-color.png?w=200 caption="Färgpalett."]
+[FIGURE src=image/Nelly.png?w=200 class="right" caption="Nelly."]
+Samlad data från mätningarna med Google Pagespeed och devtools för Nelly.se går att se i följande
+[excelark](https://docs.google.com/spreadsheets/d/1wfqrh0kU1eIWplHxUDws6Gr7Hb4dIlrPTDzpIjhUkYg/edit#gid=0). Med hjälp av Google Pagespeed går det att se att hastighetsresultatet för Nelly.se när denna öppnas i mobilen är sämre än när man tittar på hemsidan på datorn. I mobilen visar analysen en 7a i skalan, vilket innebär att den är långsam medan på datorn är den genomsnittlig, 81 i betyg. Hemsidan är alltså inte anpassad för mobilen. Chrome devtools visade en genomsnittlig laddningstid på 2,26s där antalet resurser är 206 och sidans totala storlek 103kb i genomsnitt. Ett sätt att optimera och förbättra webbplatsen är tex att skicka bilder i modernare bildformat,
+ta bort resurser som blockerar renderingen, undvika upprepade omdirigeringar och
+skjuta upp CSS som inte används.
 
-På folksam.se kan man se att ett monokromatiskt färgschema har använts där olika varianter av blått har använts.(dbwebb, 2018). Den blåa färgen används mest på headern och sedan har man lagt till netruala basfärger för bodyn. På färgpaletten går det att avläsa att accentfärgen som används är ljusblått. På denna webbplats använder man sig av en vit färg och olika varianter av blå för all text. Här ser man också att man anpassat kontrasterna mellan färgerna. Deras val av typsnitt för H1-H3 är Sanchez-semibold och serif. Jag anser att webbplatsens färgval och typografi motsvarar den profil jag tror att Folksam vill ha.
+[FIGURE src=image/Aftonbladet.png?w=200 class="right" caption="Aftonbladet."]
+Samlad data från mätningarna med Google Pagespeed och devtools för Aftonbladet.se går att se i följande [excelark](https://docs.google.com/spreadsheets/d/1wfqrh0kU1eIWplHxUDws6Gr7Hb4dIlrPTDzpIjhUkYg/edit#gid=2038006241). Med hjälp av Google Pagespeed går det att se att hastighetsresultatet för Aftonbladet.se när denna öppnas i mobilen är den sämre än när man tittar på hemsidan på datorn. I mobilen visar analysen 52 i skalan, vilket innebär att den är genomsnittlig medan på datorn är lite bättre men fortfarande genomsnittlig, 71 i betyg. Hemsidan funkar alltså bättre på datorn och mer anpassad för datorn än mobilen. Chrome devtools visade en genomsnittlig laddningstid på 4,38s där antalet resurser är 160 och sidans totala storlek 275kb i genomsnitt. Ett sätt att optimera och förbättra webbplatsen är tex att ta bort resurser som blockerar renderingen, skjuta upp inläsningen av bilder som inte visas på skärmen, skjuta upp CSS som inte används
+och använda bilder med rätt storlek.
 
-[FIGURE src=image/HM.png?w=200 caption="H&M."]
 
-[FIGURE src=image/HM-color.png?w=200 caption="Färgpalett."]
+[FIGURE src=image/Youtube.png?w=200 class="right" caption="Youtube."]
+Samlad data från mätningarna med Google Pagespeed och devtools för Youtube.se går att se i följande [excelark](https://docs.google.com/spreadsheets/d/1wfqrh0kU1eIWplHxUDws6Gr7Hb4dIlrPTDzpIjhUkYg/edit#gid=2038006241). Med hjälp av Google Pagespeed går det att se att hastighetsresultatet för Youtube när denna öppnas i mobilen är sämre än när man tittar på hemsidan på datorn. I mobilen visar analysen 54 i skalan, vilket innebär att den är genomsnittlig medan på datorn är den snabb, 97 i betyg. Hemsidan funkar alltså bättre på datorn och mer anpassad för datorn än mobilen. Chrome devtools visade en genomsnittlig laddningstid på 4,63s där antalet resurser är 104 och sidans totala storlek 892kb i genomsnitt. Ett sätt att optimera och förbättra webbplatsen är tex att undvika upprepade omdirigeringar,
+skjuta upp inläsningen av bilder som inte visas på skärmen, ta bort resurser som blockerar renderingen, skjuta upp CSS som inte används och minska svarstiderna från servern (tid till första byte).
 
-På Hm.se kan man se att ett monokromatiskt färgschema har använts där olika varianter av svart har använts. (dbwebb, 2018). Man har använt sig netruala basfärger svart, vitt och grått. Footern är svart och ovanför finns nyanser finns mörka och ljusa nyanser att grått. Headern och bodyn är vitt. På färgpaletten går det att avläsa att accentfärgen som används är rött. På denna webbplats använder man sig av en vit och svart färg för all text. Där bakgrunden är vit används svart text och där bakgrunden är svart/mörk används vit färg. Här ser man också att man anpassat den vita och svarta färgen med grått så att det smälter in. Deras val av typsnitt för H1-H3 är HM Amperserif Disp","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic","Garamond","Times New Roman",Times, och serif. Jag anser att webbplatsens färgval och typografi motsvarar den profil jag tror att H&M vill ha.
 
-[FIGURE src=image/F.png?w=200 caption="Filmstaden."]
-
-[FIGURE src=image/filmstaden-color.png?w=200 caption="Färgpalett."]
-På Filmstaden.se kan man se att ett monokromatiskt färgschema har använts där olika varianter av rött samt svart och vitt har använts. (dbwebb, 2018). Den röda färgen används på headern och sedan har man lagt till netruala basfärger för bodyn och footern. På färgpaletten går det att avläsa att accentfärgen som används är rött. På denna webbplats använder man sig av en vit och grå färg för all text. Webbplatsen är väldigt mörk färg och det man vill ska synas mest har man valt en röd (bakgrundsfärgen i headern) och vit färg (länkarna på headern och h3 i footern). Deras val av typsnitt för H1-H3 är sf_sansbold och San-serif. Jag anser att webbplatsens färgval och typografi motsvarar den profil jag tror att Filmstaden vill ha.
 
 Analys
 =========================
 
-Folksams logga är blå och vit och eftersom det är ett försäkringsbolag så vill de framstå som seriösa och den blåa färgen är just den färg som ger en känsla av det. Den blå färgen associeras med öppenhet, intelligens och hopp och har visat sig ge en känsla av lugn. Det ger också en känsla av stabilitet och tydlighet. Detta är en känsla Folksam vill förmedla via sin blåa logo och den blå vita färgen på deras webbplats. (Beaird. J, 2014). Den ljusgula/beiga och vita färgen som bakgrund på webbplatsen får användaren att fokusera på mitten av webbplatsen. De neutrala färgerna tillåter användaren att uppehålla sin mentala energi för att gå igenom innehållet. (Cannon. T, 2012).
 
-Filmstaden använder sig av ett mörkt tema där bakgrunden och footern är svart med vit och grå text medan header är röd med vit text på länkarna. Genom att använda sig av den röda färgen i headern dras användarens uppmärksamhet till de olika titlarna/kategorierna på hemsidan så att man enkelt hittar dem olika delarna. Genom att använda sig av stora kontraster som rött och vitt samt svart och vitt så blir texten läsbar och tydlig och styr användarens uppmärksamhet. (Cannon. T, 2012).Den röda färgen i header följer deras röda logga. Den röda färgen har ett rykte av att stimulera adrenalinet och blodtrycket. Färgen som en dramatisk, passionerad och spännande färg. Webbplatsen använder sig av kromatiska värde av färger, den svarta/mörka färgen gör att användaren associerar företaget med nattliv, att man som besökare går på bio på kvällen då det är mörkt. (Beaird. J, 2014). Att se på film kan också stimulerar adrenalinet och blodtrycket, framförallt om det är en skräckfilm man ser. Det kan också vara väldigt dramatiskt och spännande att se på film. Det mörka temat representerar känslan man har när man går på bio, där det är släckt/mörkt och mysigt. Jag tror att Filmstaden har valt just den röda färgen i sin logga och den mörka bakgrunden på sin webbplats för att förmedla dessa känslor.
+Efter att ha kört mätningen tre gånger på respektive sida så går det att konstatera att jag fick olika resultat varje gång. Detta kan bero på att sidorna laddar upp olika annonser eller skript varje gång eller så kan internetanslutningen variera. Gemensamt för respektive sida är att betyget är högre när man kollar på hemsidorna på datorn än i mobilen. Youtube som har flest videon visade längst laddningstid och näst längst laddningstid hade Aftonbladet som innehåller både videon och bilder. Kortast laddningstid visade Nelly.se då denna hemsidan har mindre bilder och kortare videon.
+De vanligaste förbättringsåtgärderna för dessa tre webbplatser verkar vara att
+skjuta upp CSS som inte används, ta bort resurser som blockerar renderingen och
+undvika upprepade omdirigeringar.
 
-HMs logga är röd-vit. HM använder sig av ett minimalistiskt tema på sin webbplats. Det är väldigt enkelt, vit bakgrund, stora bilder och rubriker och med fokus på innehållet. Footern är mörk med vit liten text för att inte dra för mycket uppmärksamhet från innehållet/kläderna/stora bilderna/annonserna. (Moran. K, 2015). Även på denna webbplats gör de neutrala färgerna att det inte upptar för mycket av användarens mentala energi för att orka gå igenom innehållet. Den röda och vita färgen ger en känsla av passion, enkelhet och kraftfullhet. (Cannon. T, 2012). HM är känd för att det ska uppfattas som enkelt och stilrent och det tycker jag framkommer på deras webbplats.
+Baserat på mätvärdena så ligger Youtube.se på topp följt av Aftonbladet.se och sedan Nelly.se. Youtube har en längre landningstid med 4,63s än de andra två hemsidorna på 4,38s och 2,26s men om man tittar på respektive sidas totala storlek så är Youtube betydligt större med 892kb i genomsnitt jämfört med 275kb och 103kb. Youtube får också bättre betyg när man tittar på hemsidan på mobilen och även hyfsat högt betyg
+vid visning på datorn.
+
+En gräns för absolut laddningstid som jag själv uppfattar som snabb är runt 2s medan en långsam är över 5s.  Mitt urval av mina webbplatser klarar mina gränsvärden och ligger inom 2-5s. Jag upplever dessa webbplatser snabba, dock kan Nelly.se och Aftonbladet.se lagga och det tar tid för tex bilderna på dessa sidor att laddas upp.
+
 
 Referenser
 =========================
 
-Folksam. 2018. https://www.folksam.se/
+Nelly. 2018. <https://nelly.com/se/kl%C3%A4der-f%C3%B6r-kvinnor/>
 
-Filmstaden. 2018. https://www.filmstaden.se/
+Youtube. 2018. <https://www.youtube.com/?gl=SE&hl=sv>
 
-HM. 2018. https://www2.hm.com/sv_se/index.html
+Aftonbladet. 2018. <https://www.aftonbladet.se/>
 
-Dbwebb. 2018. Färg. https://dbwebb.se/guide/design-med-html5-och-css3/standard_farger
+Pagespeed Insights. 2018 <https://developers.google.com/speed/pagespeed/insights/>
 
-Moran. K. 2015. The Characteristics of Minimalism in Web Design. https://www.nngroup.com/articles/characteristics-minimalism/
+Beaird. J (2014). The Principles of Beautiful Web Design. <https://www.safaribooksonline.com/library/view/the-principles-of/9781457174353/Text/ch02.html>
 
-Cannon. T. 2012. An Introduction to Color Theory for Web Designers. https://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-web-designers--webdesign-1437
-
-Beaird. J (2014). The Principles of Beautiful Web Design. https://www.safaribooksonline.com/library/view/the-principles-of/9781457174353/Text/ch02.html
+Moz. 2018. Page Speed. <https://moz.com/learn/seo/page-speed>
 
 Övrigt
 =========================
