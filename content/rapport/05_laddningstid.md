@@ -60,8 +60,6 @@ Aftonbladet. 2018. <https://www.aftonbladet.se/>
 
 Pagespeed Insights. 2018 <https://developers.google.com/speed/pagespeed/insights/>
 
-Beaird. J (2014). The Principles of Beautiful Web Design. <https://www.safaribooksonline.com/library/view/the-principles-of/9781457174353/Text/ch02.html>
-
 Moz. 2018. Page Speed. <https://moz.com/learn/seo/page-speed>
 
 Övrigt
