@@ -412,6 +412,7 @@
 }
 .previous {
   float: left;
+  height: 3em;
 }
 /**
  * Import the typographic grid.
@@ -592,6 +593,24 @@ figure.figure-codepen {
 /**
  * Base style to affect HTML elements on a general scale.
  */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: grey;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -904,7 +923,7 @@ body {
   color: black;
   background-color: #fff;
   text-align: center;
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 serif;
 }
 img {
   max-width: 100%;

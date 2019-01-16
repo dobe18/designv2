@@ -9,10 +9,10 @@ Milano
 =========================
 
 <picture>
-    <source media="(min-width: 668px)" srcset="image/blogg/milano.jpeg, image/blogg/milano@2x.jpeg 2x">
-    <source media="(min-width: 376px)" srcset="image/blogg/small-milano.jpeg">
-    <img src="image/blogg/milano.jpeg" class="max-width" alt="Duomo">
+    <source media="(min-width: 668px)" srcset="image/blogg/milano.jpeg?width=600&height=350&crop-to-fit">
+    <img src="image/blogg/milano.jpeg?width=400&crop-to-fit&quality=80" alt="">
 </picture>
+
 
 Bild på katedralen Duomo i Milano, tagen en tidig höst.
 
@@ -28,8 +28,6 @@ Bild på katedralen Duomo i Milano, tagen en tidig höst.
     Vitbalans: Automatisk vitbalans  
 
 [FIGURE src="image/blogg/milano.jpeg?width=800&quality=80" class="w100" caption="Duomo" class="left"]
-
-Bild på katedralen Duomo i Milano, tagen en tidig höst.
 
 [FIGURE src="image/blogg/milano.jpeg?width=600&height=350&crop-to-fit&f=grayscale&sharpen&quality=80" caption="Duomo i svartvitt" class="middle"]
 

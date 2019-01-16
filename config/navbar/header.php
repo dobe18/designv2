@@ -45,6 +45,11 @@ return [
                         "url" => "redovisning/kmom05",
                         "title" => "Redovisning för kmom05.",
                     ],
+                    [
+                        "text" => "Kmom10",
+                        "url" => "redovisning/kmom10",
+                        "title" => "Redovisning för kmom10.",
+                    ],
                 ],
             ],
         ],
@@ -63,6 +68,21 @@ return [
                         "text" => "Rapport: Utvärdera webbplatsers laddningstid och användbarhet",
                         "url" => "rapport/laddningstid",
                         "title" => "Rapport: Utvärdera webbplatsers laddningstid och användbarhet",
+                    ],
+                    [
+                        "text" => "Rapport: Utvärdera webbplatsers laddningstid och användbarhet",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport: Utvärdera webbplatsers laddningstid och användbarhet",
+                    ],
+                    [
+                        "text" => "Analys: Analys aktuell webbplatsdesign",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Analys: Analys aktuell webbplatsdesign",
+                    ],
+                    [
+                        "text" => "Analys: Webbplatsers färgval och känslan de signalerar",
+                        "url" => "rapport/design-och-webbplatser",
+                        "title" => "Analys: Webbplatsers färgval och känslan de signalerar",
                     ],
                 ],
             ],

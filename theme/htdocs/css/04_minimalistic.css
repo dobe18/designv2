@@ -4953,6 +4953,7 @@ a {
 }
 .previous {
   float: left;
+  height: 3em;
 }
 .rm-navbar ul {
   list-style: none;

@@ -10,10 +10,10 @@ Zakynthos
 =========================
 
 <picture>
-    <source media="(min-width: 668px)" srcset="image/blogg/zakynthos.jpeg?width=800&height=400&crop-to-fit">
-    <source media="(min-width: 376px)" srcset="image/blogg/zakynthos.jpeg?width=600&height=300&crop-to-fit">
-    <img src="image/blogg/zakynthos.jpeg?width=800" alt="Zakynthos">
+    <source media="(min-width: 668px)" srcset="image/blogg/zakynthos.jpeg?width=600&height=350&crop-to-fit">
+    <img src="image/blogg/zakynthos.jpeg?width=400&crop-to-fit&quality=80" alt="">
 </picture>
+
 
 Bild på Shipwreck beach på ön Zakynthos, tagen i somras.
 

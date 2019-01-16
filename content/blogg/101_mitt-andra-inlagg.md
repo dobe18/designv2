@@ -10,10 +10,10 @@ Comosjön
 =========================
 
 <picture>
-    <source media="(min-width: 668px)" srcset="image/blogg/Como.jpeg?width=800&height=400&crop-to-fit&save-as=jpg">
-    <source media="(min-width: 376px)" srcset="image/blogg/Como.jpeg?width=600&save-as=jpg">
-    <img src="image/blogg/Como.jpeg?width=350&height=350&save-as=jpg" alt="Comosjön">
+    <source media="(min-width: 668px)" srcset="image/blogg/Como.jpeg?width=600&height=350&crop-to-fit">
+    <img src="image/blogg/Como.jpeg?width=400&crop-to-fit&quality=80" alt="">
 </picture>
+
 
 Bild på Comosjön i Lombardiet i Italien, tagen under sensommaren.
 
