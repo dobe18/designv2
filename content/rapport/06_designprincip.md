@@ -1,67 +1,52 @@
 ---
 ---
-Rapport: Utvärdera webbplatsers laddningstid och användbarhet
+Rapport: Utvärdera designprinciper som webbplatser använder sig av
 =========================
 
-Uppgiften handlar om att välja ut ett antal olika webbplatser och studera dem utifrån aspekten designprinciper.
-
+Uppgiften handlar om att välja ut 3 webbplatser och studera hur dessa använder sig av designprinciper
 
 Urval
 =========================
-Jag har valt fyra olika reklambyråer: https://www.markus.se/, https://ny.se/ och https://www.madebymedia.se/ eller https://www.soft.se/.  Jag valde att undersöka reklambyråer dels då dessa använder sig mest av design/extravagans och dels för att jag önskar bli inspirerad själv.
+Jag har valt att undersöka tre olika reklambyråer, Markus.se, Madebymedia.se och Mustasch.se. Jag valde att undersöka dessa då reklambyråer är de vars design bör stå ut mest och som har bäst koll på det senaste inom design. Genom att undersöka dessa får jag förståelse för trender inom design och hur det kan användas för att stå ut.
 
 
 Metod
 =========================
-Min metod för att utföra undersökningen var att googla fram olika reklambyråer. Sedan använde jag mig av kursmaterialet som jag har blivit försedd med för detta kmom och analyserat de valda webbplatserna utifrån de designprinciper jag läst om.
+Min metod för att utföra undersökningen var att använda mig de 20 olika designprinciperna och undersöka hur webbplatserna använder sig av dessa och se om designprinciperna som används är lika/olika för framsidorna och undersidorna.
 
 Resultat
 =========================
+[FIGURE src=image/madebymedia.png?w=200 caption="MadebyMedia."]
+[FIGURE src=image/Mustasch.png?w=200 caption="Mustasch."]
+[FIGURE src=image/markus.png?w=220 caption="Markus."]
 
-[FIGURE src=image/Nelly.png?w=200 class="right" caption="Nelly."]
-Samlad data från mätningarna med Google Pagespeed och devtools för Nelly.se går att se i följande
-[excelark](https://docs.google.com/spreadsheets/d/1wfqrh0kU1eIWplHxUDws6Gr7Hb4dIlrPTDzpIjhUkYg/edit#gid=0). Med hjälp av Google Pagespeed går det att se att hastighetsresultatet för Nelly.se när denna öppnas i mobilen är sämre än när man tittar på hemsidan på datorn. I mobilen visar analysen en 7a i skalan, vilket innebär att den är långsam medan på datorn är den genomsnittlig, 81 i betyg. Hemsidan är alltså inte anpassad för mobilen. Chrome devtools visade en genomsnittlig laddningstid på 2,26s där antalet resurser är 206 och sidans totala storlek 103kb i genomsnitt. Ett sätt att optimera och förbättra webbplatsen är tex att skicka bilder i modernare bildformat,
-ta bort resurser som blockerar renderingen, undvika upprepade omdirigeringar och
-skjuta upp CSS som inte används.
+Alla 3 webbplatser är reklambyråer vars mål är att hjälpa andra bolag att skapa starka varumärken och att kommunicera det bolagen önskar förmedla. Enkelt uttryckt så är deras syfte att hjälpa bolagen med deras marknadsföring för att brett kunna nå ut till deras kunder. Webbplatserna dessa reklambyråer har skapat är för att själva göra reklam för sig själva och för bolagen att snabbt hitta information om de, t.ex. deras syfte, tjänster och kontaktuppgifter. Jag själv tycker att designen gynnar webbplatsernas mål och syfte och känslan som designen ger. Gemensamt för alla tre webbplatser är att designen på dessa är färgglada, mycket rörelse samt stora bilder och rubriker. Designen är inte neutralt utan det står verkligen ut och är lekfull.  
 
-[FIGURE src=image/Aftonbladet.png?w=200 class="right" caption="Aftonbladet."]
-Samlad data från mätningarna med Google Pagespeed och devtools för Aftonbladet.se går att se i följande [excelark](https://docs.google.com/spreadsheets/d/1wfqrh0kU1eIWplHxUDws6Gr7Hb4dIlrPTDzpIjhUkYg/edit#gid=2038006241). Med hjälp av Google Pagespeed går det att se att hastighetsresultatet för Aftonbladet.se när denna öppnas i mobilen är den sämre än när man tittar på hemsidan på datorn. I mobilen visar analysen 52 i skalan, vilket innebär att den är genomsnittlig medan på datorn är lite bättre men fortfarande genomsnittlig, 71 i betyg. Hemsidan funkar alltså bättre på datorn och mer anpassad för datorn än mobilen. Chrome devtools visade en genomsnittlig laddningstid på 4,38s där antalet resurser är 160 och sidans totala storlek 275kb i genomsnitt. Ett sätt att optimera och förbättra webbplatsen är tex att ta bort resurser som blockerar renderingen, skjuta upp inläsningen av bilder som inte visas på skärmen, skjuta upp CSS som inte används
-och använda bilder med rätt storlek.
+På Markus.se och MadebyMedia.se är tex rubrikerna extra stora för att det ska stå ut och att man först ska läsa det, markerar det med storleken. Här används alltså både designprinciperna skala och hierarki, för att signalera att det är av vikt och markera det. Typografi är något annat som syns på dessa webbplatser, tex med de stora och fetstilta rubrikerna. Rubrikerna på Mustasch är också stora dock inte lika stora som övriga två webbplatser. På Markus.se har man dock tagit det ännu längre genom att ha text på flashen som ständigt byter färg och form. En annan designprincip som kan utläsas är färg. På Markus.se matchar färgerna på hemsidan loggan och de är konsekventa med svart och vitt över hela sidan förutom först på sidan/flashen tillsammans med loggan som ständigt ändrar till ljusa färger. Detsamma gäller MadbyMedia.se vars färger på hemsidan reflekterar färgerna på loggan. Tidigare nämnd konsekvens visar också på att de använder sig av designprincipen repetition. Här används väldigt färgglada bilder som passar väl in med resten av hemsidans färger. Mustasch är inte konsekventa över hela webbsidan med den gröna färgen utan de blandar, dock är den gröna färgen återkommande under webbsidan, tex med trädet och gräset men även de gröna ”persiennerna” som ramar in avsnittet om deras strategi. På Markus.se så är den stora rubriken creative content digital transparent mot bakgrunden och bakgrundsfärgen. Även alla bilder på prisutmärkelserna är transparanta mot bakgrunden. Transparens är också något som används på de andra två webbplatserna. MadebyMedia.se tex en stor text ”Hello” som är transparent mot flashbilden/den stora bilden på papegojan. Detsamma gäller Mustasch, som har bilder samt text som är transparent mot bakgrunden. Överst på sidan tex så är deras logga transparent mot bakgrundsbilden på den vässade pennan. En annan designprincip som jag anser kännetecknar webbplatserna hemsidor är rörelseprincipen. På Markus.se dyker det upp en bild neråt direkt på framsidan över den stora bilden för att man ska veta att det finns mer att läsa neråt. På Mustasch.se så använder de rörelse genom hela framsidan. Tex så åker pennan upp när man scrollar ner, och efter det dyker det upp två turturduvor som kysser varandra framför trädet. Fortsätter man sedan neråt så går tre skrynklade papper ihop. Vidare använder de gröna ”persienner” med loggan på som öppnas upp för att läsa strategin. Sist avslutar de med att en svart fåtölj hamnar längst ner på sidan. MadebyMedia tex har inte lika mycket fysisk rörelse på deras hemsida jämfört med övriga två. På deras hemsida har de endast att den stora texten ”Hello” läses in och tydliggörs. Däremot har de rörelse på deras om-sida där bilderna läses in från vänster till höger och efter varandra. MadebyMedia har tillskillnad från övriga två hemsidor använt sig av designelementet textur i deras footer där de använt trägolv som den svarta fåtöljen landar/står på. En annan designprincip som märks är ”randomness” som kan ses på Mustasch.se som tex har turturduvorna som kysser varandra, skrynklade papper och fåtöljen. De sakerna, trots att de är ”random”, kommunicerar tex kreativitet hos reklambyrån. (Canva, 2019)
 
-
-[FIGURE src=image/Youtube.png?w=200 class="right" caption="Youtube."]
-Samlad data från mätningarna med Google Pagespeed och devtools för Youtube.se går att se i följande [excelark](https://docs.google.com/spreadsheets/d/1wfqrh0kU1eIWplHxUDws6Gr7Hb4dIlrPTDzpIjhUkYg/edit#gid=2038006241). Med hjälp av Google Pagespeed går det att se att hastighetsresultatet för Youtube när denna öppnas i mobilen är sämre än när man tittar på hemsidan på datorn. I mobilen visar analysen 54 i skalan, vilket innebär att den är genomsnittlig medan på datorn är den snabb, 97 i betyg. Hemsidan funkar alltså bättre på datorn och mer anpassad för datorn än mobilen. Chrome devtools visade en genomsnittlig laddningstid på 4,63s där antalet resurser är 104 och sidans totala storlek 892kb i genomsnitt. Ett sätt att optimera och förbättra webbplatsen är tex att undvika upprepade omdirigeringar,
-skjuta upp inläsningen av bilder som inte visas på skärmen, ta bort resurser som blockerar renderingen, skjuta upp CSS som inte används och minska svarstiderna från servern (tid till första byte).
-
+Undersidorna på MadebyMedia är lika varandra och väldigt enkla till skillnad från framsidan. Medan undersidorna på Marcus.se är konsekventa med designen och designprinciperna som används på framsidan. På Mustasch.se är undersidorna medarbetare (rörelse), kunder, nyheter, jobb och kontakt enkla där man inte använder samma designprinciper som på framsidan, inramning. Designprinciperna som används på undersidan om deras portfölj är lika som de som används på framsidan. Om-sidan är lik framsidan designmässigt förutom att man inte använder sig av rörelse här.
 
 
 Analys
 =========================
 
+Alla tre webbplatser har en väldigt färgglad och fräsch design där det händer mycket. De har valt att ha med saker som sticker ut genom t.ex. objekt som rör sig, stora bilder och stor text. Här är det ganska tydligt att man använder designprinciper för att få deras webbplatser att kännas intressanta, lekfulla och synas. Deras design skapar intresse och står ut. Genom att ha en sådan design och visa upp för företagen vad de kan skapa designmässigt så lockar det företagen att anlita de för att skapa liknande design åt dem. Rent generellt så kan man dra slutsatsen att för webbplatser som vill stå ut så är det trendigt med designprinciper som rörelse, hierarki, bilder och färg (framförallt ljusa färger). Vissa använder sig dock mer av extravagans än andra för att stå ut. Ett exempel på det är mer rörelse på hemsidan och udda innehåll som skapar intresse. Ju mer innehåll på hemsidan desto viktigare är det att använda sig av designprinciper som får innehållet att synas. Det underlättar också för användare att hitta runt och inte tycka att det är för omfattande/omständligt att gå igenom innehållet. Webbplatserna anpassar sina färgscheman och utseende på hemsidan till deras logga så att man påminner användarna om loggan och vilket företag det är de kollar på. Vissa har även en rörelse på loggan som gör att loggan följer med medan man klickar/scrollar sig igenom sidan. Genom att ha mycket rörelse, färg och bilder så känns det roligt att gå igenom innehållet och man blir inte trött av att titta på hemsidan. Det är tydligt att webbplatserna genom sin design vill skapa en känsla. För reklambyråer är det kreativitet och lekfullhet som är fokus.
 
-Efter att ha kört mätningen tre gånger på respektive sida så går det att konstatera att jag fick olika resultat varje gång. Detta kan bero på att sidorna laddar upp olika annonser eller skript varje gång eller så kan internetanslutningen variera. Gemensamt för respektive sida är att betyget är högre när man kollar på hemsidorna på datorn än i mobilen. Youtube som har flest videon visade längst laddningstid och näst längst laddningstid hade Aftonbladet som innehåller både videon och bilder. Kortast laddningstid visade Nelly.se då denna hemsidan har mindre bilder och kortare videon.
-De vanligaste förbättringsåtgärderna för dessa tre webbplatser verkar vara att
-skjuta upp CSS som inte används, ta bort resurser som blockerar renderingen och
-undvika upprepade omdirigeringar.
-
-Baserat på mätvärdena så ligger Youtube.se på topp följt av Aftonbladet.se och sedan Nelly.se. Youtube har en längre landningstid med 4,63s än de andra två hemsidorna på 4,38s och 2,26s men om man tittar på respektive sidas totala storlek så är Youtube betydligt större med 892kb i genomsnitt jämfört med 275kb och 103kb. Youtube får också bättre betyg när man tittar på hemsidan på mobilen och även hyfsat högt betyg
-vid visning på datorn.
-
-En gräns för absolut laddningstid som jag själv uppfattar som snabb är runt 2s medan en långsam är över 5s.  Mitt urval av mina webbplatser klarar mina gränsvärden och ligger inom 2-5s. Jag upplever dessa webbplatser snabba, dock kan Nelly.se och Aftonbladet.se lagga och det tar tid för tex bilderna på dessa sidor att laddas upp.
 
 
 Referenser
 =========================
+Markus. 2019.
+<https://www.markus.se/>
 
-Nelly. 2018. <https://nelly.com/se/kl%C3%A4der-f%C3%B6r-kvinnor/>
+Mustasch Reklambyrå. 2019.
+<https://www.mustasch.se/>
 
-Youtube. 2018. <https://www.youtube.com/?gl=SE&hl=sv>
+MadebyMedia. 2018.
+<https://www.madebymedia.se/>
 
-Aftonbladet. 2018. <https://www.aftonbladet.se/>
+Canva. 2018 Design Elements & Principles . <https://www.canva.com/learn/design-elements-principles/>
 
-Pagespeed Insights. 2018 <https://developers.google.com/speed/pagespeed/insights/>
-
-Moz. 2018. Page Speed. <https://moz.com/learn/seo/page-speed>
 
 Övrigt
 =========================

@@ -46,6 +46,11 @@ return [
                         "title" => "Redovisning för kmom05.",
                     ],
                     [
+                        "text" => "Kmom06",
+                        "url" => "redovisning/kmom06",
+                        "title" => "Redovisning för kmom06.",
+                    ],
+                    [
                         "text" => "Kmom10",
                         "url" => "redovisning/kmom10",
                         "title" => "Redovisning för kmom10.",
@@ -73,6 +78,21 @@ return [
                         "text" => "Rapport: Utvärdera webbplatsers laddningstid och användbarhet",
                         "url" => "rapport/laddningstid",
                         "title" => "Rapport: Utvärdera webbplatsers laddningstid och användbarhet",
+                    ],
+                    [
+                        "text" => "Rapport: Utvärdera designprinciper som webbplatser använder sig av",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport: Utvärdera designprinciper som webbplatser använder sig av",
+                    ],
+                    [
+                        "text" => "Rapport: Skapa tema med designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Rapport: Skapa tema med designelement",
+                    ],
+                    [
+                        "text" => "Rapport: Skapa tema enligt designprinciper",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Rapport: Skapa tema enligt designprinciper",
                     ],
                     [
                         "text" => "Analys: Analys aktuell webbplatsdesign",

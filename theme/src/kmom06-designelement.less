@@ -1,0 +1,168 @@
+/*!
+ * Stylesheet for design kmom06.
+ *
+ * This stylesheet is for the design course and kmom06 where we use LESS.
+ */
+
+
+/**
+* Import the typographic grid.
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+* Import the vertical grid.
+*/
+@import "@desinax/vertical-grid/less/grid.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+   @gridImage: "../img/magic-number-@{magicNumber}.png";
+   #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+* Import figure.
+*/
+@import "@desinax/figure/less/figure.less";
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/style.less";
+@import "@desinax/figure/less/codepen.less";
+
+
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+* A responsive menu.
+*/
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+* import mixin.
+*/
+
+@import "mixin/clearfix.less";
+.clearfix() {
+   #design-mixin.clearfix()
+}
+
+
+@import "layout/kmom06_designelement.less";
+@import "base/base_themecolor.less";
+
+
+@backgroundColor: #3f4a2e;
+@textColor: white;
+@textColorHeader: white;
+@textColorFooter: #f0f046;
+@backgroundColorHeader: white;
+@backgroundColorFooter: #ff6764;
+@backgroundColorHtml: #88c9f8;
+@fontFamilyHeadings: monospace;
+@fontFamilyBody: sans-serif;
+@textColorLink: #29a6ff;
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+    font-family: @fontFamilyBody;
+}
+
+html {
+    background-color: @backgroundColorHtml;
+}
+
+.rm-max .rm-mobile {
+    background-color: @backgroundColor;
+    color: @textColor
+}
+
+.rm-max .rm-small .rm-button {
+    background-color: #3f4a2e;
+}
+
+.rm-desktop li a {
+    color: inherit;
+    background-color: #3f4a2e;
+    margin-bottom: -12px;
+    font-family: @fontFamilyHeadings;
+}
+
+.outer-wrap.outer-wrap-footer {
+     background-image: url(../../htdocs/img/wood.jpg);
+     width: 100%;
+     height: 400px;
+     background-size: 100% 100%;
+     color: @backgroundColor;
+     font-family: @fontFamilyHeadings;
+}
+
+a {
+    color: rosybrown;
+}
+
+.byline-box {
+    border-bottom: solid rosybrown;
+    margin-left: 130px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+}
+
+figure.figure.right {
+    border-bottom: solid rosybrown;
+    margin: 2px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: @fontFamilyHeadings;
+    margin: .67em 0;
+    border-bottom: solid rosybrown;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+h4 {
+    font-size: 25px;
+    border-bottom: solid green;
+}
+
+.rm-desktop li a:hover {
+    color: rosybrown;
+    background-color: inherit;
+}
+
+time {
+    color: rosybrown;
+}
+
+ul {
+    margin-right: 35px;
+    display: flow-root;
+}
+
+figure.figure figcaption {
+    display: none;
+}
+
+.byline-box {
+    border-bottom: solid rosybrown;
+    margin-left: 130px;
+    margin-bottom: 45px;
+    margin-right: 10px;
+    margin-left: -16px;
+    margin-top: -111px;
+}
